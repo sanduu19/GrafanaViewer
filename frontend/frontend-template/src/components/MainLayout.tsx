@@ -2,6 +2,9 @@ import React from "react"
 import {Link, Outlet, redirect, useLocation} from "react-router-dom"
 import MainHeader from "./MainHeader";
 import Footer from "./Footer";
+import bg100 from '../components/Assets/dashboard.jpg'
+
+
 
 export function isLoggedIn() {
     if (localStorage.getItem("IsLoggedIn") === "LoggedIn" && (localStorage.getItem("id") !== "")) {
@@ -17,11 +20,11 @@ export default function MainLayout() {
     const grafanaDashboardUrl = 'https://snapshots.raintank.io/dashboard/snapshot/VRrBg9waqzPawqYICwTtLYWklfX8IvVk';
   
     return (
-      <div className="dashboard">
+      <div className="dashboard" style={{backgroundImage:`url(${bg100})`, backgroundPosition: 'center', backgroundSize:'cover'}}>
         <div className="site-wrapper">
           <MainHeader />
           {location.pathname === '/' && (
-            <div>
+            <div className="iframess">
               
                 <iframe
                   src={grafanaDashboardUrl}
@@ -29,6 +32,7 @@ export default function MainLayout() {
                   height="600"
                   frameBorder="0"
                   title="Grafana Dashboard"
+                  className="iframe"
                 />
                 
               
