@@ -1,0 +1,9 @@
+com\ncinga\apigateway\configurations\CustomJwtAuthenticationConverter.class
+com\ncinga\apigateway\configurations\CustomJwtAuthenticationConverterForWebFluxSecurity.class
+com\ncinga\apigateway\configurations\CustomJwtAuthenticationConverter$2.class
+com\ncinga\apigateway\APIGatewayApplication.class
+com\ncinga\apigateway\controllers\TestController.class
+com\ncinga\apigateway\configurations\CustomJwtAuthenticationConverterForWebFluxSecurity$1.class
+com\ncinga\apigateway\configurations\CustomJwtAuthenticationConverter$1.class
+com\ncinga\apigateway\configurations\SecurityConfig.class
+com\ncinga\apigateway\configurations\CustomJwtAuthenticationConverterForWebFluxSecurity$2.class

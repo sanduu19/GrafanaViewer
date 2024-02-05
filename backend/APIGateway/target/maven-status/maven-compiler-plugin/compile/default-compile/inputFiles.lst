@@ -1,0 +1,5 @@
+D:\NCINGA dev\template\backend\APIGateway\src\main\java\com\ncinga\apigateway\configurations\SecurityConfig.java
+D:\NCINGA dev\template\backend\APIGateway\src\main\java\com\ncinga\apigateway\APIGatewayApplication.java
+D:\NCINGA dev\template\backend\APIGateway\src\main\java\com\ncinga\apigateway\controllers\TestController.java
+D:\NCINGA dev\template\backend\APIGateway\src\main\java\com\ncinga\apigateway\configurations\CustomJwtAuthenticationConverter.java
+D:\NCINGA dev\template\backend\APIGateway\src\main\java\com\ncinga\apigateway\configurations\CustomJwtAuthenticationConverterForWebFluxSecurity.java
