@@ -14,8 +14,10 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@grafana/ui": "^10.3.1",
     "@reduxjs/toolkit": "^1.8.1",
     "axios": "^1.6.7",
+    "grafana": "^1.0.1",
     "keycloak-js": "^23.0.6",
     "primeflex": "^3.3.1",
     "primereact": "^10.4.0",

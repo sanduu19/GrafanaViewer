@@ -16,7 +16,7 @@ export default function MainHeader() {
                     to="/" className='towhite'
                     style={({isActive}) => isActive ? activeStyles : null}
                 >
-                    Captive Portal
+                    Dashboard
                 </NavLink></li>
                 <li><NavLink
                     to="/login" className='towhite'

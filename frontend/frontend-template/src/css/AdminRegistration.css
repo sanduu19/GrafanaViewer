@@ -24,6 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   }
   .bg1{
     width: 100px;
@@ -58,6 +59,7 @@
     justify-content: center;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   .header {
@@ -144,4 +146,6 @@
   }
   .towhite{
     color: white;
+    font-weight: 600;
+    text-decoration: none;
   }
