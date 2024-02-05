@@ -17,7 +17,7 @@ export function isLoggedIn() {
 
 export default function MainLayout() {
     const location = useLocation();
-    const grafanaDashboardUrl = 'https://snapshots.raintank.io/dashboard/snapshot/VRrBg9waqzPawqYICwTtLYWklfX8IvVk';
+    const grafanaDashboardUrl = 'https://snapshots.raintank.io/dashboard/snapshot/Qx4sYs72m5VoBNSWkYH5TjzwH0FFacMg';
   
     return (
       <div className="dashboard" style={{backgroundImage:`url(${bg100})`, backgroundPosition: 'center', backgroundSize:'cover'}}>
