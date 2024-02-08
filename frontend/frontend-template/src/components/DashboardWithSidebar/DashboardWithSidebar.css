@@ -1,0 +1,19 @@
+/* DashboardWithSidebar.css */
+
+.dashboard-container {
+    display: flex;
+    background: white;
+    height: 100vh;
+  }
+  
+  /* Adjust styles for SideBar and Dashboard1 as needed */
+  .side-bar {
+    width: 250px;
+    /* Add other styling properties as needed */
+  }
+  
+  .dashboard {
+    flex: 1; /* Takes up remaining available space */
+    /* Add other styling properties as needed */
+  }
+  

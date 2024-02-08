@@ -2,7 +2,6 @@ import React from "react"
 import {Link, Outlet, redirect, useLocation} from "react-router-dom"
 import MainHeader from "./MainHeader";
 import Footer from "./Footer";
-import bg100 from '../components/Assets/dashboard.jpg'
 
 
 
@@ -16,28 +15,13 @@ export function isLoggedIn() {
 
 
 export default function MainLayout() {
-    const location = useLocation();
-    const grafanaDashboardUrl = 'https://snapshots.raintank.io/dashboard/snapshot/Qx4sYs72m5VoBNSWkYH5TjzwH0FFacMg';
+    
   
     return (
-      <div className="dashboard" style={{backgroundImage:`url(${bg100})`, backgroundPosition: 'center', backgroundSize:'cover'}}>
+      <div>
         <div className="site-wrapper">
           <MainHeader />
-          {location.pathname === '/' && (
-            <div className="iframess">
-              
-                <iframe
-                  src={grafanaDashboardUrl}
-                  width="100%"
-                  height="600"
-                  frameBorder="0"
-                  title="Grafana Dashboard"
-                  className="iframe"
-                />
-                
-              
-            </div>
-          )}
+          
           <main>
             <Outlet />
           </main>

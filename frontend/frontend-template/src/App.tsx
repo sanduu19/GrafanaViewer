@@ -4,6 +4,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
+  Router,
 } from "react-router-dom"
 import Splash, { loader as splashLoader } from "./components/Splash"
 import AdminLogin, { loader as loginLoader } from "./components/AdminLogin"
@@ -20,6 +21,12 @@ import { Button } from 'primereact/button';
 import axios from "axios";
 import Keycloak from "keycloak-js";
 import { httpClient } from "./HttpClient.js"
+import { BrowserRouter,Routes} from "react-router-dom"
+import Sidebar from "./components/Sidebar/SideBar"
+import SideBar from "./components/Sidebar/SideBar"
+import Dashboard1 from "./components/Dashboards/Dashboard1"
+import MainHeader from "./components/MainHeader"
+import DashboardWithSidebar from "./components/DashboardWithSidebar/DashboardWithSidebar"
 
 let initOptions ={
   url: 'http://localhost:8080',
@@ -59,7 +66,14 @@ kc.init({
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
+    
+    
+        
+    
+
+        <Route path="/dashboard" element={<DashboardWithSidebar />} />
       <Route path="/" element={<MainLayout />}>
+      
         <Route index element={<Splash />} loader={splashLoader} />
         <Route path="login" element={<AdminLogin />} loader={loginLoader} />
         <Route
@@ -67,8 +81,9 @@ const router = createBrowserRouter(
           element={<AdminRegistration />}
           loader={registrationLoader}
         />
+        
       </Route>
-
+      
       <Route path="admin" element={<AdminLayout />}>
         <Route index element={<AdminPanel />} />
       </Route>
