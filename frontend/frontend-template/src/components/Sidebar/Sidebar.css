@@ -106,9 +106,10 @@
   height: 50px;
   width: 210px;
   text-align: left;
- 
-  
-  
+  margin-top: -52px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   }
   .bn:hover{
     background-color: #32d4e9;
