@@ -53,9 +53,10 @@
     font-weight: 500;
     color: #32d4e9;
     cursor: pointer;
-    
+    display: flex;
     border-radius: 6px;
     border-width: 5px;
+    margin-left: -17px;
   }
   
   /* Style the element class when it has the with-dropdown class */
@@ -73,10 +74,10 @@
     left: 0;
     width: 80%;
     background-color: #f1f1f1;
-    border-radius: 8px;
+    border-radius: 0px;
     border-bottom: 2px solid #32d4e9;
     /* Use a display property to hide the dropdown by default */
-    display: none;
+    
    
   }
   .dropdown p:hover{
@@ -86,6 +87,7 @@
   
   /* Style the p elements inside the dropdown class */
   .dropdown p {
+    
     margin: 10px;
     font-size: 18px;
     color: #111;
@@ -100,9 +102,11 @@
     background-color: transparent; 
   color: rgb(0, 0, 0); 
   border: 2px solid #32d4e9;
-  border-radius: 12px;
+  border-radius: 0px;
   height: 50px;
   width: 210px;
+  text-align: left;
+ 
   
   
   }
@@ -126,6 +130,7 @@
   height: 40px;
   width: 150px;
   margin-top: -70px;
+  display: none;
 }
 
 
