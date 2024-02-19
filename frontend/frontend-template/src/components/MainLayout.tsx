@@ -4,7 +4,8 @@ import MainHeader from "./MainHeader";
 import Footer from "./Footer";
 import BGH from '../components/Assets/BG_Home.jpg'
 import './Sidebar/Sidebar.css'
-
+import forward from '../components/Assets/forward_2704716.png'
+ 
 
 
 export function isLoggedIn() {
@@ -43,7 +44,7 @@ export default function MainLayout() {
       <Link to='/Dashboard'><button className="bbb">
   <span class="transition"></span>
   <span class="gradient"></span>
-  <span class="label">View Dashboard</span>
+  <span class="label">View Dashboard <img src={forward} alt="" className="forward" /></span>
 </button></Link></div>       
           </div> 
           }
