@@ -24,17 +24,17 @@ const SideBar: React.FC = () => {
           <button className='bn' onClick={() => { setMenu("1") }}>Power Consumption{menu === "1" ? <hr /> : <></>} </button>
         </div>
         <div className="element with-dropdown">
-          <button className='bn' onClick={() => { setMenu("2") }}>Unit/Costs {menu === "2" ? <hr /> : <></>}</button>
+          <button className='bn' >Unit/Costs</button>
           <div className="dropdown">
-            <p onClick={() => { setMenu("3") }}>Unit {menu === "3" ? <hr /> : <></>}</p>
-            <p onClick={() => { setMenu("4") }}>Costs {menu === "4" ? <hr /> : <></>}</p>
+            <p onClick={() => { setMenu("2") }}>Unit {menu === "3" ? <hr /> : <></>}</p>
+            <p onClick={() => { setMenu("3") }}>Costs {menu === "4" ? <hr /> : <></>}</p>
           </div>
         </div>
         <div className="element with-dropdown">
-          <button className='bn' onClick={() => { setMenu("5") }}>Donut on Unit/Costs {menu === "5" ? <hr /> : <></>}</button>
+          <button className='bn' >Donut on Unit/Costs</button>
           <div className="dropdown">
-            <p onClick={() => { setMenu("6") }}>Dropdown Item 1 {menu === "6" ? <hr /> : <></>}</p>
-            <p onClick={() => { setMenu("7") }}>Dropdown Item 2 {menu === "7" ? <hr /> : <></>}</p>
+            <p onClick={() => { setMenu("4") }}>Unit {menu === "6" ? <hr /> : <></>}</p>
+            <p onClick={() => { setMenu("5") }}>Cost {menu === "7" ? <hr /> : <></>}</p>
           </div>
         </div>
       </div>

@@ -24,3 +24,16 @@
     opacity: 0.80;
   }
   
+.dashtxt{
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: x-large;
+  width: 15%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:#1ee5ff ;
+  margin-left: 8px;
+
+  
+
+}
